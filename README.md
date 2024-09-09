@@ -9,6 +9,10 @@ project is an ecosystem of creatures with:
 
 it aims to be a very highlevel simulation of life. no cells, just creatures
 
+```
+@bio/bio;https://github.com/simulo-bio/bio.git
+```
+
 ## penalties
 
 a penalty refers to a loss in energy, applied to encourage being more efficient
