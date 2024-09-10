@@ -4,20 +4,13 @@ local genes = {
     head_color = Color:hex(0xa9bc67),
     body_parts = {
         [1] = {
-            point_a = vec2(-1, -0.1),
-            point_b = vec2(0, 0),
+            point = vec2(-0.5, -0.1),
             color = Color:hex(0xa9bc67),
-            radius = 0.35,
+            radius = 0.3,
         },
         [2] = {
-            point_a = vec2(-1, -0.1),
-            point_b = vec2(-1, -0.8),
-            color = Color:hex(0xa9bc67),
-            radius = 0.2,
-        },
-        [3] = {
-            point_a = vec2(-0.25, -0.025),
-            point_b = vec2(-0.25, -0.025 - 0.7),
+            point_a = vec2(-0.5, -0.1),
+            point_b = vec2(-0.5, -0.8),
             color = Color:hex(0xa9bc67),
             radius = 0.2,
         },
